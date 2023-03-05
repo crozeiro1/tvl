@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hide Userposts
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.11
 // @description  Entfernt Posts eines definierten Users
 // @author       You
 // @include      https://forum.oeffentlicher-dienst.info/*
@@ -12,7 +12,7 @@
     'use strict';
 
     /// unerwünschte Unser hier ergänzen
-    var nicknames = ["spid","anotherusername1","yetanotherusername2"];
+    var nicknames = ["spid","svabackagain","yetanotherusername2"];
 
     var links = document.getElementsByTagName("a");
     for(var i=0; i<links.length; i++) {
